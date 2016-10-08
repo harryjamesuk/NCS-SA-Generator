@@ -22,3 +22,10 @@ app.get('/', function(req, res) {
 
   res.end();
 });
+
+app.get('/generator.appcache', function(req, res) {
+  res.writeHead(200, {'Content-Type': 'text/cache-manifest'});
+  var view = fs.readFileSync("./www/generator.appcache", {encoding: "utf-8"});
+  res.write(view);
+  res.end();
+});
