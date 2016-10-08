@@ -2,10 +2,9 @@ var express = require('express');
 var app = express();
 
 // Create web server
-const port = 80;
 const http = require('http');
 var server = http.Server(app);
-server.listen(port);
+server.listen(process.env.PORT || 3000);
 
 app.get('/', function(req, res) {
 
