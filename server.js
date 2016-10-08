@@ -12,6 +12,7 @@ app.use(express.static('public'));
 app.use('/js', express.static('www/js'));
 app.use('/css', express.static('www/css'));
 app.use('/lib/ionic', express.static('www/lib/ionic'))
+app.use('/img', express.static('www/img'))
 
 app.get('/', function(req, res) {
 
