@@ -25,6 +25,9 @@
   margin: 0;
 }
 /* FOOTER */
+#generate-bar {
+  cursor: pointer;
+}
 #generate-title {
   font-size: 30px;
   font-weight: 500;
