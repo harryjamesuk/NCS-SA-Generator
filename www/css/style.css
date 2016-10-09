@@ -21,8 +21,28 @@
   display: inline-block;
   /*height: 100%;*/
   width: 60%;
-  background-color: gold;
+  background-color: #ecf0f1;
   margin: 0;
+  border: 3px dotted;
+}
+/* Colours */
+#local-area .idea-title {
+  background-color: #3399FF;
+}
+#problem-area .idea-title {
+  background-color: #FF3399;
+}
+#type-of-area .idea-title {
+  background-color: #FFC000;
+}
+#local-area .idea {
+  border-color: #3399FF;
+}
+#problem-area .idea {
+  border-color: #FF3399;
+}
+#type-of-area .idea {
+  border-color: #FFC000;
 }
 /* FOOTER */
 #generate-bar {
