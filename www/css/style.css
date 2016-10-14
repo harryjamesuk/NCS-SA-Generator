@@ -72,3 +72,15 @@
     width: initial;
   }
 }
+
+@media screen and (max-height: 800px) {
+  .idea {
+    font-size: 2em;
+  }
+}
+
+@media screen and (max-height: 600px) {
+  .idea {
+    font-size: 1.5em;
+  }
+}
