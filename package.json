@@ -1,6 +1,6 @@
 {
   "name": "NCS-SA-Generator",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "An app to generate Social Action project ideas",
   "dependencies": {
     "gulp": "^3.5.6",
